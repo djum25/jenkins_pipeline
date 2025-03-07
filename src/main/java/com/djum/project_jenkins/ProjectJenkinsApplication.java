@@ -15,7 +15,7 @@ public class ProjectJenkinsApplication {
 
 	@GetMapping("/")
 	public String entryPoint(){
-		return "Hello world test crontab";
+		return "Hello world test crontab after 10mns";
 	}
 
 }
