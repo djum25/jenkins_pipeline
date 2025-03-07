@@ -3,7 +3,6 @@ package com.djum.project_jenkins;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
@@ -16,7 +15,7 @@ public class ProjectJenkinsApplication {
 
 	@GetMapping("/")
 	public String entryPoint(){
-		return "Hello world";
+		return "Hello world test crontab";
 	}
 
 }
